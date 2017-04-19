@@ -66,7 +66,7 @@ end
 
 fprintf('Input Image: %s\n', params.i);
 for pi=1:p
-  fprintf('Tissue Probability %d: %s\n', pi, params.p{1});
+  fprintf('Tissue Probability %d: %s\n', pi, params.p{pi});
 end
 fprintf('Output Prefix: %s\n', params.o);
 fprintf('mu: %d\n', params.mu);
